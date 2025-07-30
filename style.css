@@ -1,0 +1,189 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 70px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+ul {
+    list-style: none;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+.home {
+    color: rgb(39, 212, 39);
+    text-decoration: underline;
+}
+.r {
+    color: rgb(39, 212, 39);
+}
+.register {
+    display: flex;
+    gap: 20px;
+}
+.signn {
+    background-color: rgb(39, 212, 39);
+    padding: 15px 20px;
+    border-radius: 30px;
+    display: none;
+    text-align: center;
+    /* width: 100%; */
+}
+.logo-icon {
+    color: rgb(39, 212, 39);
+    font-size: 15px;
+}
+.dont {
+    font-size: 15px;
+    display: none;
+    text-align: center;
+}
+.sign-up {
+    color: rgb(39, 212, 39);
+}
+/* hero section  */
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+    /* flex-direction: column-reverse; */
+    flex-flow: wrap-reverse;
+}
+.text {
+    width: 700px;
+    height: 500px;
+}
+.image {
+    width: 400px;
+    height: 450px;
+}
+.push {
+    font-size: 80px;
+}
+.chase {
+    color:  rgb(39, 212, 39);
+}
+.lorem {
+    margin-top: -70px;
+}
+.register-hero {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+.start {
+    background-color: rgb(39, 212, 39);
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+.learn {
+    padding: 15px 20px;
+    border: solid 1px rgb(39, 212, 39);
+    border-radius: 10px;
+}
+.power {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.profile {
+    display: flex;
+    margin-top: 60px;
+    gap: 20px;
+}
+.profile-dp {
+    display: flex;
+    align-items: center;
+}
+.circle1, .circle2, .circle3 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid white;
+}
+.circle2, .circle3 {
+    margin-left: -20px;
+}
+.numbers, .ratings {
+    font-size: 30px;
+    line-height: 20px;
+}
+.figures {
+    display: flex;
+    gap: 180px;
+}
+.happy {
+    font-size: 15px;
+}
+.dp {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+i {
+    font-size: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    body {
+        margin: 0 20px;
+    }
+    nav {
+        display: none;
+    }
+    .image {
+        width: 100%;
+        height: 80%;
+    }
+    .push {
+        font-size: 40px;
+        margin-top: -10px;
+        text-align: center;
+    }
+    .lorem {
+        margin-top: -30px;
+    }
+    .profile {
+        display: none;
+    }
+    .learn, .start {
+        display: none;
+    }
+    .sign {
+        display: flex;
+       text-align: center;
+    }
+  .signn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* width: 100%; */
+    margin-top: 40px;
+  }
+  .power {
+    border-radius: 40px 40px 0 0;
+  }
+  .hero {
+    justify-content: center;
+  }
+  .dont {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  .text {
+    height: 0;
+  }
+}
